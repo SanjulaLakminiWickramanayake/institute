@@ -1,0 +1,12 @@
+{
+  "name": "nexora/institute",
+  "description": "Nexora Institute website and student management system",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "phpmailer/phpmailer": "^6.10"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

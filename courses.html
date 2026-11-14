@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore Nexora Institute programs across IT, business, short courses, and professional learning pathways." />
+    <title>Courses & Programs | Nexora Institute</title>
+    <link rel="icon" type="image/jpeg" href="images/logo/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body data-page="courses">
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a href="index.html" class="brand logo" aria-label="Nexora home">
+          <img src="images/logo/logo.jpg" alt="Nexora Institute Logo" />
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item has-dropdown">
+              <button class="dropdown-toggle nav-link" type="button" aria-expanded="false">About Us <span class="caret">▾</span></button>
+              <div class="dropdown-menu">
+                <a href="about.html#who-we-are">Who We Are</a>
+                <a href="about.html#vision-mission">Vision &amp; Mission</a>
+                <a href="about.html#core-values">Core Values</a>
+                <a href="about.html#leadership-team">Leadership Team</a>
+                <a href="about.html#achievements">Achievements</a>
+              </div>
+            </li>
+            <li class="nav-item has-dropdown">
+              <button class="dropdown-toggle nav-link active" type="button" aria-expanded="false">Courses <span class="caret">▾</span></button>
+              <div class="dropdown-menu">
+                <a href="courses.html">All Courses</a>
+                <a href="courses.html#it">IT Courses</a>
+                <a href="courses.html#business">Business Courses</a>
+                <a href="courses.html#short-courses">Short Courses</a>
+                <a href="courses.html#professional">Professional Courses</a>
+              </div>
+            </li>
+            <li class="nav-item has-dropdown">
+              <button class="dropdown-toggle nav-link" type="button" aria-expanded="false">Admissions <span class="caret">▾</span></button>
+              <div class="dropdown-menu">
+                <a href="admissions.html#how-to-apply">How to Apply</a>
+                <a href="admissions.html#entry-requirements">Entry Requirements</a>
+                <a href="admissions.html#application-process">Application Process</a>
+                <a href="admissions.html#available-intakes">Available Intakes</a>
+                <a href="admissions.html#faq">FAQs</a>
+                <a href="apply.php">Apply Online</a>
+              </div>
+            </li>
+            <li class="nav-item has-dropdown">
+              <button class="dropdown-toggle nav-link" type="button" aria-expanded="false">Contact Us <span class="caret">▾</span></button>
+              <div class="dropdown-menu">
+                <a href="contact.html#contact-info">Contact Information</a>
+                <a href="contact.html#location">Location</a>
+                <a href="contact.html#hours">Opening Hours</a>
+                <a href="https://wa.me/94112345678" target="_blank" rel="noreferrer">WhatsApp</a>
+              </div>
+            </li>
+            <li class="nav-item nav-cta"><a href="sign-in.php" class="btn btn-secondary">MY ACCOUNT</a></li>
+            <li class="nav-item nav-cta"><a href="admissions.html#application-form" class="btn btn-primary">Apply Now</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero section-soft">
+        <div class="container narrow text-center reveal fade-up">
+          <span class="eyebrow">OUR COURSES</span>
+          <h1>Explore Our Courses</h1>
+          <p>Choose a learning path designed around your interests, goals, and future career plans.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="filter-bar reveal fade-up">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="IT">IT</button>
+            <button class="filter-btn" type="button" data-filter="Business">Business</button>
+            <button class="filter-btn" type="button" data-filter="Short Courses">Short Courses</button>
+            <button class="filter-btn" type="button" data-filter="Professional">Professional</button>
+          </div>
+
+          <div class="card-grid course-grid">
+            <article class="course-card reveal fade-up" data-category="IT" data-course-id="diploma-it">
+              <img src="images/courses/Information technology classroom.avif" alt="Information technology course" />
+              <div class="card-body">
+                <span class="tag">IT</span>
+                <h3>Diploma in Information Technology</h3>
+                <p>Build practical digital and technical skills across programming, networking, and systems.</p>
+                <ul class="meta-list"><li>Duration: 12 Months</li></ul>
+                <div class="card-actions">
+                  <button class="btn btn-secondary small view-details" type="button" data-course-id="diploma-it">View Details</button>
+                  <a href="apply.php" class="btn btn-primary small">Apply Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card reveal fade-up" data-category="Professional" data-course-id="web-dev">
+              <img src="images/courses/Web development workstations.avif" alt="Professional web development course" />
+              <div class="card-body">
+                <span class="tag">Professional</span>
+                <h3>Professional Web Development</h3>
+                <p>Learn modern frontend and web development concepts through real, project-based learning.</p>
+                <ul class="meta-list"><li>Duration: 06 Months</li></ul>
+                <div class="card-actions">
+                  <button class="btn btn-secondary small view-details" type="button" data-course-id="web-dev">View Details</button>
+                  <a href="apply.php" class="btn btn-primary small">Apply Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card reveal fade-up" data-category="IT" data-course-id="software-fundamentals">
+              <img src="images/courses/Software development fundamentals course.avif" alt="Software development fundamentals course" />
+              <div class="card-body">
+                <span class="tag">IT</span>
+                <h3>Software Development Fundamentals</h3>
+                <p>Explore programming logic, coding practices, and application design with guided support.</p>
+                <ul class="meta-list"><li>Duration: 08 Months</li></ul>
+                <div class="card-actions">
+                  <button class="btn btn-secondary small view-details" type="button" data-course-id="software-fundamentals">View Details</button>
+                  <a href="apply.php" class="btn btn-primary small">Apply Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card reveal fade-up" data-category="Business" data-course-id="business-management">
+              <img src="images/courses/Business management students planning a project.avif" alt="Business management course" />
+              <div class="card-body">
+                <span class="tag">Business</span>
+                <h3>Diploma in Business Management</h3>
+                <p>Develop leadership, communication, and operational skills for modern business environments.</p>
+                <ul class="meta-list"><li>Duration: 12 Months</li></ul>
+                <div class="card-actions">
+                  <button class="btn btn-secondary small view-details" type="button" data-course-id="business-management">View Details</button>
+                  <a href="apply.php" class="btn btn-primary small">Apply Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card reveal fade-up" data-category="Business" data-course-id="business-admin">
+              <img src="images/courses/Business administration essentials course.avif" alt="Business administration essentials course" />
+              <div class="card-body">
+                <span class="tag">Business</span>
+                <h3>Business Administration Essentials</h3>
+                <p>Understand core business operations, planning, and organizational decision-making.</p>
+                <ul class="meta-list"><li>Duration: 09 Months</li></ul>
+                <div class="card-actions">
+                  <button class="btn btn-secondary small view-details" type="button" data-course-id="business-admin">View Details</button>
+                  <a href="apply.php" class="btn btn-primary small">Apply Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card reveal fade-up" data-category="Short Courses" data-course-id="graphic-design">
+              <img src="images/courses/Graphic design essentials course.avif" alt="Graphic design essentials course" />
+              <div class="card-body">
+                <span class="tag">Short Courses</span>
+                <h3>Graphic Design Essentials</h3>
+                <p>Explore design principles, visual storytelling, and digital creativity in a focused short course.</p>
+                <ul class="meta-list"><li>Duration: 03 Months</li></ul>
+                <div class="card-actions">
+                  <button class="btn btn-secondary small view-details" type="button" data-course-id="graphic-design">View Details</button>
+                  <a href="apply.php" class="btn btn-primary small">Apply Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card reveal fade-up" data-category="Short Courses" data-course-id="digital-marketing-fundamentals">
+              <img src="images/courses/Digital marketing fundamentals course.avif" alt="Digital marketing fundamentals course" />
+              <div class="card-body">
+                <span class="tag">Short Courses</span>
+                <h3>Digital Marketing Fundamentals</h3>
+                <p>Learn the essentials of online marketing, branding, campaigns, and audience engagement.</p>
+                <ul class="meta-list"><li>Duration: 04 Months</li></ul>
+                <div class="card-actions">
+                  <button class="btn btn-secondary small view-details" type="button" data-course-id="digital-marketing-fundamentals">View Details</button>
+                  <a href="apply.php" class="btn btn-primary small">Apply Now</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="course-card reveal fade-up" data-category="Professional" data-course-id="communication-skills">
+              <img src="images/courses/Professional communication and career skills.avif" alt="Professional communication and career skills" />
+              <div class="card-body">
+                <span class="tag">Professional</span>
+                <h3>Professional Communication &amp; Career Skills</h3>
+                <p>Develop confident communication, presentation, interview skills, and career readiness.</p>
+                <ul class="meta-list"><li>Duration: 06 Weeks</li></ul>
+                <div class="card-actions">
+                  <button class="btn btn-secondary small view-details" type="button" data-course-id="communication-skills">View Details</button>
+                  <a href="apply.php" class="btn btn-primary small">Apply Now</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" id="courseModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close="modal"></div>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" type="button" aria-label="Close course details">×</button>
+        <div class="modal-content">
+          <span class="eyebrow modal-tag" id="modalCategory">IT</span>
+          <h3 id="modalTitle">Course Title</h3>
+          <div class="modal-meta">
+            <span id="modalDuration">Duration</span>
+          </div>
+          <div class="modal-section">
+            <h4>Overview</h4>
+            <p id="modalOverview"></p>
+          </div>
+          <div class="modal-section">
+            <h4>What students will learn</h4>
+            <ul id="modalLearn"></ul>
+          </div>
+          <div class="modal-section">
+            <h4>Learning outcomes</h4>
+            <ul id="modalOutcomes"></ul>
+          </div>
+          <div class="modal-actions">
+            <a href="apply.php" class="btn btn-primary">Apply Now</a>
+            <button class="btn btn-secondary close-modal" type="button">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="brand logo footer-brand">
+            <img src="images/logo/logo.jpg" alt="Nexora Institute Logo" />
+          </a>
+          <p class="footer-tagline">Learn • Grow • Succeed</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Programs</h3>
+          <ul>
+            <li><a href="courses.html#it">IT Courses</a></li>
+            <li><a href="courses.html#business">Business Courses</a></li>
+            <li><a href="courses.html#short-courses">Short Courses</a></li>
+            <li><a href="courses.html#professional">Professional Courses</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+94112345678">+94 11 234 5678</a></li>
+            <li><a href="mailto:info@nexora.edu.lk">info@nexora.edu.lk</a></li>
+            <li>Colombo, Sri Lanka</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Social Media</h3>
+          <ul>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://wa.me/94112345678" target="_blank" rel="noreferrer">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">© 2026 Nexora Institute. All Rights Reserved.</div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  </body>
+</html>
